@@ -11,7 +11,7 @@ public class App {
         int sal_annuel= sc.nextInt();
         System.out.println("saisir combien d'années vous avez travaillé:");
         int nbr_anstravailles= sc.nextInt();
-        if (sal_annuel> min_salaire && nbr_anstravailles> min_nbrAns){
+        if (sal_annuel> min_salaire && nbr_anstravailles>= min_nbrAns){
             System.out.println("Félicitation! vous pouvez obtenir le pret");
         }
         else {
